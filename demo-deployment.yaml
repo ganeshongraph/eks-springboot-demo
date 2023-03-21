@@ -25,7 +25,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: 314291991123.dkr.ecr.us-east-2.amazonaws.com/demo:demo
+      - image: 314291991123.dkr.ecr.us-east-2.amazonaws.com/demo:demo-${BUILD_NUMBER}
         imagePullPolicy: Always
         name: demo
         ports:
